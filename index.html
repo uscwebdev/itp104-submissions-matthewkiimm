@@ -4,47 +4,108 @@
         <title>Matthew Kim | Student Page</title>
 
         <style>
-         
+         body{
+               
+                display: flex;
+                justify-content: center;
+         }
+         .container{
+                width:950px;
+                max-width: 100%;
+              
+                padding: 20px;
+                margin:20px 0;
+                box-sizing: border-box;
+         }
             
-          img {
+          .container img {
             height: 200px;
             width: auto;
           }
-         
+
+          .section1 { margin-bottom:20px;
+                display:flex;
+        }
+
+.section.middle, .section.last {
+        display:flex;
+        flex-direction: row;
+}
+
+.subsection1a{ width:440px;
+
+}
+
+.section2{margin-bottom:20px;
+        display:flex;
+}
+
+.subsection2a{ width:440px;
+
+}
+
+.name {
+                display: flex;
+                flex-direction: column;
+
+}
+
 
              strong{background-color:skyblue ;}
         </style>
 </head>
 <body>
 
+
+
+<div class="container">
+        <div class="name">
+
 <h1>Matthew Kim</h1>
 
      <a href="mailto:mkim5307@usc.edu">mkim5307@usc.edu</a>
-    
+</div>
+
+ <hr> 
+
+<div class="section1">
+<div class="subsection1a">
      <p>Favorite Color: <strong>Blue</strong></p>
      
      <p>Favorite website: <a href="https://youtube.com">youtube.com</a></body></p>
 
     <p>Favorite Activity:</p>
         <img src="/Users/matthewkim/Desktop/Class Materials/Lab 02 Images/swimming stock photo.jpg" alt="Favorite Activity">
+</div>
+        <div>
+     
+   <div class="subsection1b">
+                <p>Fall 2023 Schedule:</p>
+            <ul>
+            <li>ITP 104</li>
+            <li>BUAD311</li>
+            <li>BUAD302</li>
+            <li>Writ340</li>
+            <li>ENGL352</li>
+            </ul>
+        </div>  
+        </div>
 
+</div>
 
-<p>Fall 2023 Schedule:</p>
-    <ul>
-    <li>ITP 104</li>
-    <li>BUAD311</li>
-    <li>BUAD302</li>
-    <li>Writ340</li>
-    <li>ENGL352</li>
-    </ul>
-<hr> 
+<hr>
+
+<div class="section2">
+        <div class="subsection2a">
 <p>Completed Assignments:</p>
 <ul>
         <li><a href="assignment_01/Assignment 01.html"> Assignment 1: Web Resume</a></li>
         <li><a href="assignment_02/assignment_02.html"> Assignment 2: Interests Page</a></li>
 
 </ul>
+</div>
 
+<div class="subseciton2b">
 <p>Completed Labs:</p>
 
         <ul>
@@ -52,5 +113,10 @@
                 <li><a href= "lab_03/Lab03.html"> Lab 3: Updated Resume</a></li>
         
         </ul>
+</div>
+</div>
+</div>
+
 </body>
 </html>
+
