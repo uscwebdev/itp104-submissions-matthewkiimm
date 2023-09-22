@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Film Survey</title>
+    <style>
+
+        .form-row { margin: 10px 0px;
+         }
+       h1 {display: flex;
+        justify-content: center;}
+
+         .section1 { margin-bottom:20px;
+            display:flex;   
+            } 
+
+                .subsection1a{ 
+                    width: 150px;
+                }
+
+                .subsection1b{
+                    width: 150px;
+                }
+
+        .section2 { margin-bottom:  0px;
+    display: flex;
+    }
+
+    .subsection2a {
+        width:150px;
+    }
+
+    .subsection2b{
+        width: 150px;
+    }
+    
+        body {
+            font-family: Arial, sans-serif;
+                color: #262626;
+            background-color: #cac5c5;
+        
+        }
+     form {
+  width: 60%;
+             
+  border: 2px solid #f0eaea;
+  margin: auto;
+      
+  background-color: #f5f2f2;
+            padding: 25px;
+ 
+        }
+        label, input, select, textarea {
+            margin-bottom: 10px;
+            display: block;
+          
+        }
+        input[type="checkbox"], input[type="radio"] {
+            display: inline-block;
+        }
+     input[type="submit"], input[type="reset"] {
+     background-color: #163cad;
+         cursor: pointer;
+         color: #fff;
+                padding: 10px 20px;
+                border: none;
+        }
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+<h1> Film Survey </h1>
+    
+
+   
+      <form action="confirmation.html">
+           <div class="form-row">
+    <label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Tommy Trojan" required>
+          </div>
+
+    <div class="section1">
+             <div class="subsection1">
+         <label>Favorite Film Genre : </label>
+    </div>
+
+      <div class="subsection1a">
+        <label for="action">Action</label>
+         <input type="radio" id="action" name="genre" value="Action">
+      </div>
+    
+    <div class="subsection1b">
+        <label for="comedy">Comedy</label>
+        <input type="radio" id="comedy" name="genre" value="Comedy">
+    </div>
+           <div class="subsection1c">
+             <label for="other">Other (comments)</label>
+                   <input type="radio" id="other" name="genre" value="Other">
+       
+    </div> 
+         </div>    
+<div class="section2">
+                   <div class="subsection1a">
+              <label>Preferred Movie Language(s):</label>
+        </div>
+                <div class="subsection2a">  
+               <label for="english">English</label>
+        <input type="checkbox" id="english" name="language" value="English">
+    </div> 
+    <div class="subsection2b"> 
+        <label for="spanish">Spanish</label>
+                  <input type="checkbox" id="spanish" name="language" value="Spanish">
+    </div>  
+            <div class="subsection2c">
+                      <label for="other">Other (comments)</label>
+        <input type="checkbox" id="other" name="language" value="other">
+        
+    </div>   
+</div>
+
+                 <label for="movie">Favorite Movie:</label>
+        <select id="movie" name="movie">
+                   <option value="The Godfather">The Godfather</option>
+             <option value="Before Sunset">Before Sunset</option>
+                   <option value="Other">Other (comments)</option>
+         </select>
+        
+         <label for="comments">Comments:</label>
+                 <textarea id="comments" name="comments" rows="4" placeholder="Input Other"></textarea>
+        
+          <input type="checkbox" id="terms" name="terms" required>
+           <label for="terms">I accept the Terms & Conditions</label>
+        
+             <input type="submit" value="Submit">
+         <input type="reset" value="Reset">
+    </form>
+
+</div>
+</body>
+
+</html>
