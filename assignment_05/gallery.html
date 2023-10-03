@@ -28,27 +28,27 @@ color: rgb(241, 110, 110);
             background-color: lightgray; 
         }
         .collage div img {
-    width: 100%; /* Make the images take the full width of their parent div */
+    width: 100%; 
     height: auto;
     display: block;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto; 
 }
 
 
 .collage div:nth-child(odd) {
-    width: calc(50% - 20px); /* Making odd blocks wider */
+    width: calc(50% - 20px); 
 }
 .collage div:nth-child(3), .collage div:nth-child(4) {
-    width: calc(25% - 20px); /* Making these blocks narrower */
+    width: calc(25% - 20px);
 }
 .nested-flex {
     display: flex;
     flex-wrap: wrap;
-    width: 50%; /* Taking up half the space */
+    width: 50%; 
     gap: 20px;
 }
 .nested-flex > div {
-    width: calc(50% - 20px); /* Each child div takes up half the space of the nested flexbox */
+    width: calc(50% - 20px); 
 }
 
 nav {
@@ -88,9 +88,11 @@ nav a.active {
     <div class="container">
         <div class="collage">
            
-            <div>
-                <img src="img/11.jpg" alt="Image 1">
+          
+                <img src="img/8.jpg" alt="Image 8">
             </div>
+            </div>
+
             <div>
                 <img src="img/2.jpg" alt="Image 2">
             </div>
@@ -99,30 +101,36 @@ nav a.active {
                 <img src="img/3.jpg" alt="Image 3">
             </div>
            
-            <div class="nested-flex">
+         
                 <div>
                     <img src="img/4.jpg" alt="Image 4">
                 </div>
+              
                 <div>
                     <img src="img/5.jpg" alt="Image 5">
                 </div>
+              
                 <div>
                     <img src="img/6.jpg" alt="Image 6">
                 </div>
-            </div>
+         
             
             <div>
                 <img src="img/7.jpg" alt="Image 7">
             </div>
+           
             <div>
-                <img src="img/8.jpg" alt="Image 8">
+                <img src="img/11.jpg" alt="Image 11">
             </div>
+            
             <div>
                 <img src="img/10.jpg" alt="Image 10">
             </div>
+            
             <div>
                 <img src="img/9.jpg" alt="Image 9">
             </div>
+       
         </div>
     </div>
     <footer>

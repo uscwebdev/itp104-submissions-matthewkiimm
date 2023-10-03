@@ -70,3 +70,28 @@ img {
 .image-container:hover .caption {
     display: block;
 }
+nav {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: darkgrey;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: lightgray;
+    color: darkolivegreen;
+}
+
+nav a.active {
+    background-color: darkolivegreen;
+    color: white;
+}
