@@ -12,7 +12,7 @@ body {
 
 .image-container {
     position: relative;
-    width: 200px; /* Adjust as needed */
+    width: 200px; 
 }
 
 .image-container img {
@@ -21,8 +21,8 @@ body {
 }
 
 .image-container:hover img {
-    transform: scale(1.1); /* Zoom effect on hover */
-    filter: brightness(1.2); /* Brighter on hover */
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
 }
 
 .caption {
