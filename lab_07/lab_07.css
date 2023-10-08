@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.puzzle-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; 
+    margin: 50px auto;
+    position: relative;
+}
+
+.puzzle-container img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+
+.puzzle-container img:nth-child(1) { 
+    position: relative;
+    top: -10px;
+    left: 20px;
+    box-shadow: 0 0 10px red;
+}
+
+.puzzle-container img:nth-child(2) {
+    position: relative;
+    top: -30px;
+    right: -20px;
+    box-shadow: 0 0 10px red;
+}
