@@ -1,6 +1,9 @@
 <!Doctype html>
 <html>
 <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Matthew Kim | Student Page</title>
 
         <style>
@@ -52,6 +55,20 @@
 
 
              strong{background-color:skyblue ;}
+
+             @media (max-width: 767px) {
+    .container, body, .section1, .section2, .subsection1a, .subsection2a {
+        width: 100%; 
+        display: block; 
+        flex-direction: column; 
+    }
+
+    .container img {
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
         </style>
 </head>
 <body>
@@ -72,7 +89,7 @@
 <div class="subsection1a">
      <p>Favorite Color: <strong>Blue</strong></p>
      
-     <p>Favorite website: <a href="https://youtube.com">youtube.com</a></body></p>
+     <p>Favorite website: <a href="https://youtube.com">youtube.com</a></p>
 
     <p>Favorite Activity:</p>
         <img src="/Users/matthewkim/Desktop/Class Materials/Lab 02 Images/swimming stock photo.jpg" alt="Favorite Activity">
@@ -109,12 +126,13 @@
 </ul>
 </div>
 
-<div class="subseciton2b">
+<div class="subsection2b">
 <p>Completed Labs:</p>
 
         <ul>
             <li><a href="index.html">Lab 2: Student Page</a></li>
                 <li><a href= "lab_03/Lab03.html"> Lab 3: Updated Resume</a></li>
+                <li><a href="index.html"> Lab 4: Student Page Layout</a></li>
         <li><a href= "lab_05/lab05.html"> Lab 5: Form Page</a></li>
         <li><a href= "lab_06/lab_06.html"> Lab 6: Simple Photo Gallery</a></li>
 <li><a href= "lab_07/lab_07.html"> Lab 7: Image Puzzle</a></li>
