@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #63a5e3;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.product-info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-info p {
+    font-size: 1.2rem;
+}
+
+.narrative {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
