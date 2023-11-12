@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            background-color: rgb(217, 145, 145);
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            color: floralwhite;
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+        }
+        #images {
+            width: 400px;
+            height: 300px;
+            margin: 20px auto;
+            position: relative;
+        }
+        .img-container {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .img-container img {
+            width: 100%;
+            height: auto;
+            border: 5px solid floralwhite;
+            transition: transform 1s ease;
+        }
+        #images:hover .london {
+            transform: translateX(-100%) rotate(8deg);
+        }
+        #images:hover .amsterdam {
+            transform: translateX(0) rotate(-20deg);
+        }
+        #images:hover .paris {
+            transform: translateX(100%) rotate(4deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="header">Photo Gallery</div>
+    <div id="images">
+        <div class="img-container">
+            <img class="london" src="img/london photo.jpeg" alt="london photo">
+        </div>
+        <div class="img-container">
+            <img class="amsterdam" src="img/amsterdam photo.jpeg" alt="amsterdam photo">
+        </div>
+        <div class="img-container">
+            <img class="paris" src="img/paris photo.webp" alt="paris photo">
+        </div>
+    </div>
+</body>
+</html>
