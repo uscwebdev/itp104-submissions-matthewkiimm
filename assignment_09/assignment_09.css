@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 .image-caption img {
-    width: 100%; 
+    width: 100%; /* Adjust as necessary */
     height: auto;
 }
 
