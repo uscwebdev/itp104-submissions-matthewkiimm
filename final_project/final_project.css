@@ -3,6 +3,36 @@ nav ul li {
     margin-right: 20px;
 }
 
+.food-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.food-item img {
+    width: 30%; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(102, 201, 244);
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.food-gallery{
+    width:10%;
+    background-color:white;
+}
+
+
+.content{
+    width:100%;
+    background-color:white;
+}
+
 .content section:after {
     content: "";
     display: table;
@@ -49,35 +79,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.food-item {
-    margin-bottom: 30px;
-    text-align: center;
-}
 
-.food-item img {
-    width: 30%; 
-    height: auto;
-    margin-bottom: 10px;
-}
-
-footer {
-    background-color: rgb(102, 201, 244);
-    color: white;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-}
-
-.food-gallery{
-    width:10%;
-    background-color:white;
-}
-
-
-.content{
-    width:100%;
-    background-color:white;
-}
 
 .image-right{
     float:left;
