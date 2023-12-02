@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 200px; 
+}
+
+.image-container img {
+    width: 100%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+}
+
+.caption {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container:hover .caption {
+    display: block;
+}
+
+
+
+.img-gallery img {
+    cursor: pointer; 
+}
+
+
+.active-image {
+    border: 3px solid blue; 
+}
